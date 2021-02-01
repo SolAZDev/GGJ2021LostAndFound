@@ -1,0 +1,1070 @@
+Using pre-set license
+Desktop is 3839 x 1080 @ 60 Hz
+
+ COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/solrac/Documents/UnityProjects/GGJ2021LostAndFound
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+46197
+Successfully changed project path to: /home/solrac/Documents/UnityProjects/GGJ2021LostAndFound
+/home/solrac/Documents/UnityProjects/GGJ2021LostAndFound
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 800.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path /home/solrac/UnityInstalls/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/solrac/Documents/UnityProjects/GGJ2021LostAndFound/Assets
+GLX Extensions: GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_video_sync GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context GLX_ARB_multisample GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_ARB_get_proc_address 
+Renderer: GeForce RTX 2060/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 460.32.03
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
+_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap
+ GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -171126472
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/home/solrac/UnityInstalls/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = '/home/solrac/UnityInstalls/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/home/solrac/UnityInstalls/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56182
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/solrac/UnityInstalls/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/solrac/UnityInstalls/2020.2.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.020167 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.950 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3680 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 242.8 MB.
+System memory in use after: 241.9 MB.
+
+Unloading 158 unused Assets to reduce memory usage. Loaded Objects now: 4135.
+Total: 6.470096 ms (FindLiveObjects: 0.680044 ms CreateObjectMapping: 0.292146 ms MarkObjects: 4.979683 ms  DeleteObjects: 0.507258 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446a04e460ae517c42723b89b38afb51') in 0.032040 seconds
+  Import took 0.039041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.081610 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fcf1dacef73f13c1a3293f5f012a5e') in 0.004099 seconds
+  Import took 0.014009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.393994 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ad4a35ad78a59ffa2a263fdc78ed9d') in 0.005015 seconds
+  Import took 0.015464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.431125 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc84e5a31ff89ac89b6bf83ea4652694') in 0.005622 seconds
+  Import took 0.017248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.104451 seconds.
+  path: Assets/Audio/BGS/328142__kvgarlic__lightrainoctober31st2015.ogg
+  artifactKey: Guid(4e2553aefd6c1b42d8d1e0eed8f5e8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BGS/328142__kvgarlic__lightrainoctober31st2015.ogg using Guid(4e2553aefd6c1b42d8d1e0eed8f5e8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46b848e1e53698dd50b13a389e273e3') in 0.113148 seconds
+  Import took 0.122857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Audio/BGS/363092__fractalstudios__fire-crackle-and-flames-002.ogg
+  artifactKey: Guid(0acc60d93e270aaf5ae5809e4a5d005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BGS/363092__fractalstudios__fire-crackle-and-flames-002.ogg using Guid(0acc60d93e270aaf5ae5809e4a5d005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdb1ea8e6ebbb5eacffd1dbab1eb67a') in 0.009279 seconds
+  Import took 0.015715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Audio/BGS/397998__tombenedict__coqui-frogs.ogg
+  artifactKey: Guid(7b5ccc167a4ffcedba3ecb311225baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BGS/397998__tombenedict__coqui-frogs.ogg using Guid(7b5ccc167a4ffcedba3ecb311225baee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58eb10f570aa5f12620b8b7631d0390') in 0.010064 seconds
+  Import took 0.026567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Audio/BGS/363092__fractalstudios__fire-crackle-and-flames-002.ogg
+  artifactKey: Guid(0acc60d93e270aaf5ae5809e4a5d005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BGS/363092__fractalstudios__fire-crackle-and-flames-002.ogg using Guid(0acc60d93e270aaf5ae5809e4a5d005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdb1ea8e6ebbb5eacffd1dbab1eb67a') in 0.008672 seconds
+  Import took 0.015608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Audio/BGS/328142__kvgarlic__lightrainoctober31st2015.ogg
+  artifactKey: Guid(4e2553aefd6c1b42d8d1e0eed8f5e8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BGS/328142__kvgarlic__lightrainoctober31st2015.ogg using Guid(4e2553aefd6c1b42d8d1e0eed8f5e8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46b848e1e53698dd50b13a389e273e3') in 0.006318 seconds
+  Import took 0.012802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Audio/BGS/543649__legnalegna55__water-droplets.ogg
+  artifactKey: Guid(a848c6c16ee3146b699bb382ba9f7660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/BGS/543649__legnalegna55__water-droplets.ogg using Guid(a848c6c16ee3146b699bb382ba9f7660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2bdd7123b9cba9496676a22a59a01e') in 0.006427 seconds
+  Import took 0.013021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.235738 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f59e032446751fb44a137de9c5a053') in 0.002489 seconds
+  Import took 0.011375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.796792 seconds.
+  path: Assets/Scenes/HUDTest.unity
+  artifactKey: Guid(aaa80d3d83689fabfa439a00f5fb841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HUDTest.unity using Guid(aaa80d3d83689fabfa439a00f5fb841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193b28613bf72ed2ac9e1817f45a5bcc') in 0.002993 seconds
+  Import took 0.014012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.496890 seconds.
+  path: Assets/Scenes/Cavern0.unity
+  artifactKey: Guid(125a134cdc4ee9a0aa591debb5ed450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cavern0.unity using Guid(125a134cdc4ee9a0aa591debb5ed450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3344f27d43bc962b3e1997f15a1afbce') in 0.001771 seconds
+  Import took 0.012324 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.460 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.2 MB.
+System memory in use after: 233.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4146.
+Total: 4.512095 ms (FindLiveObjects: 0.367715 ms CreateObjectMapping: 0.170273 ms MarkObjects: 3.815429 ms  DeleteObjects: 0.150229 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001633 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.391 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 233.2 MB.
+System memory in use after: 233.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4148.
+Total: 5.417029 ms (FindLiveObjects: 0.437137 ms CreateObjectMapping: 0.138495 ms MarkObjects: 4.679575 ms  DeleteObjects: 0.153302 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.062863 seconds.
+  path: Assets/Prefabs/Key Items/Key 5 Variant.prefab
+  artifactKey: Guid(1887b6a9c9d6206fc9579a942891196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Key Items/Key 5 Variant.prefab using Guid(1887b6a9c9d6206fc9579a942891196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636f074a0dd76d24629f00be747babaf') in 0.338177 seconds
+  Import took 0.349846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Prefabs/Key Items/Treasure.prefab
+  artifactKey: Guid(7001d51bf59064d43840fdb8a9d05690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Key Items/Treasure.prefab using Guid(7001d51bf59064d43840fdb8a9d05690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca03fe5aed4d4192ea674f651de44486') in 0.017975 seconds
+  Import took 0.024282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.112077 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046a6d5c102cd41f9bd9604cade5a020') in 0.004695 seconds
+  Import took 0.012499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.325296 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce08dd6a2d7399c22f42dc67bf4c5c0') in 0.013167 seconds
+  Import took 0.020793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.274065 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0a8ff0709cf7a92643c22fa3f93f1d') in 0.017048 seconds
+  Import took 0.028123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.153627 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b43b4f9370499fe52daa0f040f1844') in 0.017111 seconds
+  Import took 0.027506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.320770 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00495ddf99ce1c193468ef2878145a8') in 0.013801 seconds
+  Import took 0.022540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.549319 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23c44c321dd2747e0217f12182d8cff') in 0.016445 seconds
+  Import took 0.027347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.177906 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c69b5ebc6a6936c7188dd79c10ba11') in 0.026140 seconds
+  Import took 0.036145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.133806 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5660db17b1bb0f9f37f410822fabcd') in 0.029130 seconds
+  Import took 0.035837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.104036 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2d735bafa6b78b4cdeec774329cce5') in 0.020968 seconds
+  Import took 0.032783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.569770 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c694ffd54af9c87e28d18420c79e7db6') in 0.028022 seconds
+  Import took 0.037927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.626873 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6989d9e86adf62468b058f31292c0efa') in 0.019494 seconds
+  Import took 0.026839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.467925 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14893fdf86b5f45340afaaee7807b94c') in 0.023092 seconds
+  Import took 0.032194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.755213 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3894b9bfbced3e206fff2bfbc1480cc5') in 0.003388 seconds
+  Import took 0.009978 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.716 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.7 MB.
+System memory in use after: 235.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4190.
+Total: 5.808210 ms (FindLiveObjects: 0.531212 ms CreateObjectMapping: 0.224261 ms MarkObjects: 4.850128 ms  DeleteObjects: 0.192273 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.448858 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff84c9f2776f9f7b52a36f1cc456a842') in 0.261093 seconds
+  Import took 0.270998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a7de45feecbf73224bedc780ad2cf5') in 0.019792 seconds
+  Import took 0.026370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6f3be0f815d0a9d1dfcb87b1ad16c8') in 0.022299 seconds
+  Import took 0.030092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.369796 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcc94ac67f85f5d3c91c2f4e2f33d9d') in 0.013623 seconds
+  Import took 0.023441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014850 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcc94ac67f85f5d3c91c2f4e2f33d9d') in 0.012746 seconds
+  Import took 0.023151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332d2f27f915f79b18ad4b1c3018551d') in 0.025136 seconds
+  Import took 0.036147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f0321d99785c43304821f2daa5df2f') in 0.029370 seconds
+  Import took 0.040109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.003060 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebdc337e7f5ae87347cd83578181116') in 0.012493 seconds
+  Import took 0.021723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019792 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebdc337e7f5ae87347cd83578181116') in 0.011420 seconds
+  Import took 0.019014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dae70a658e50e6cce5d50ef06a6c461') in 0.021869 seconds
+  Import took 0.030462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4223a81318096c9ccd47316ce0bc7e') in 0.028958 seconds
+  Import took 0.039398 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.8 MB.
+System memory in use after: 236.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4228.
+Total: 7.296179 ms (FindLiveObjects: 0.564736 ms CreateObjectMapping: 0.240673 ms MarkObjects: 6.332229 ms  DeleteObjects: 0.148482 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.031203 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f74b8f4d3364b762c3e66e57995f81') in 0.038155 seconds
+  Import took 0.049283 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.9 MB.
+System memory in use after: 236.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4230.
+Total: 5.087519 ms (FindLiveObjects: 0.467936 ms CreateObjectMapping: 0.162591 ms MarkObjects: 4.302014 ms  DeleteObjects: 0.146318 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.141759 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4002f61e212dfc39f08258bf2253fd71') in 0.046639 seconds
+  Import took 0.057605 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.688 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.9 MB.
+System memory in use after: 236.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4232.
+Total: 4.827639 ms (FindLiveObjects: 0.349137 ms CreateObjectMapping: 0.083530 ms MarkObjects: 4.140051 ms  DeleteObjects: 0.247936 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.294640 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da1497c544b43450502c2cd79b25689') in 0.028171 seconds
+  Import took 0.034757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.916356 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da1497c544b43450502c2cd79b25689') in 0.004874 seconds
+  Import took 0.016652 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.9 MB.
+System memory in use after: 236.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4234.
+Total: 5.219030 ms (FindLiveObjects: 0.543854 ms CreateObjectMapping: 0.325251 ms MarkObjects: 4.147315 ms  DeleteObjects: 0.192622 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.523156 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eed163265215e19152b4459e5c09866') in 0.255761 seconds
+  Import took 0.264189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93941fb99577dd7770729342f625a6b3') in 0.020276 seconds
+  Import took 0.026633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761e61f5d011569a682eafa4893d8b51') in 0.018732 seconds
+  Import took 0.025457 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.542 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.0 MB.
+System memory in use after: 236.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4272.
+Total: 5.584439 ms (FindLiveObjects: 0.451245 ms CreateObjectMapping: 0.380915 ms MarkObjects: 4.573207 ms  DeleteObjects: 0.170901 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.127167 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c78a08312641279c41550c8d5a87d4f') in 0.245002 seconds
+  Import took 0.253181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.187732 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbf9067286f37a451ba92a2b6df2057') in 0.029143 seconds
+  Import took 0.035970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade434d1f8a3110211829c279135d944') in 0.024843 seconds
+  Import took 0.031376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283049 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbf9067286f37a451ba92a2b6df2057') in 0.042240 seconds
+  Import took 0.053430 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001327 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.4 MB.
+System memory in use after: 236.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4310.
+Total: 8.712420 ms (FindLiveObjects: 0.366457 ms CreateObjectMapping: 0.089537 ms MarkObjects: 8.043970 ms  DeleteObjects: 0.202889 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.339573 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ff7c26c257e9ab401ef457c4e12f03') in 0.239000 seconds
+  Import took 0.247617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bec7bd1c536bff90fba1ec2055750b') in 0.019695 seconds
+  Import took 0.027173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5e8ae3c339beced22516be8c39b648') in 0.019686 seconds
+  Import took 0.025618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040969 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ff7c26c257e9ab401ef457c4e12f03') in 0.009270 seconds
+  Import took 0.016639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001305 seconds.
+Begin MonoManager ReloadAssembly
+NullReferenceException: Object reference not set to an instance of an object
+  at System.Collections.ObjectModel.ReadOnlyCollection`1[T].GetEnumerator () [0x00000] in <9577ac7a62ef43179789031239ba8798>:0 
+  at UnityEngine.Rendering.VolumeComponent.OnDisable () [0x00009] in /home/solrac/Documents/UnityProjects/GGJ2021LostAndFound/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/Runtime/Volume/VolumeComponent.cs:115 
+
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.5 MB.
+System memory in use after: 236.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4348.
+Total: 5.850604 ms (FindLiveObjects: 0.573466 ms CreateObjectMapping: 0.346483 ms MarkObjects: 4.688865 ms  DeleteObjects: 0.230337 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001219 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.5 MB.
+System memory in use after: 236.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4350.
+Total: 5.540788 ms (FindLiveObjects: 0.413600 ms CreateObjectMapping: 0.140032 ms MarkObjects: 4.770229 ms  DeleteObjects: 0.208336 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.247352 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76d266311cdd2a6b8787eb13a3143f') in 0.262525 seconds
+  Import took 0.270950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab
+  artifactKey: Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver4 Lit Variant.prefab using Guid(036f602b2c922572fb18a33d7a29abe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee60c8fb56cdd3e0644dae1414496ea1') in 0.020755 seconds
+  Import took 0.027847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab
+  artifactKey: Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver1 Lit Variant.prefab using Guid(442308285e5076f68a8707c18ec9e3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a76d266311cdd2a6b8787eb13a3143f') in 0.009304 seconds
+  Import took 0.015371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab
+  artifactKey: Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/Deco/Torch_ver3 Lit Variant.prefab using Guid(35b3b7dcfcd129f438a4693291fa0706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f720d1e0534b8ffeb9108a8c1471cca') in 0.020495 seconds
+  Import took 0.028321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.577314 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8328bc6bc5f565034ad144f4260c91d2') in 0.005150 seconds
+  Import took 0.013225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.010634 seconds.
+  path: Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab
+  artifactKey: Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level Parts/Props/WaterAtMainRoom.prefab using Guid(c74970aee1687444bb97d6cd3fc092d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) ./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformImageForIconForExtension
+./Editor/Platform/Linux/TempStubs.cpp:PlatformIma -> (artifact id: 'b1e5e3caa2e2ec5575667a38ee27e881') in 0.004789 seconds
+  Import took 0.015704 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.489 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.7 MB.
+System memory in use after: 236.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4388.
+Total: 6.235988 ms (FindLiveObjects: 0.544762 ms CreateObjectMapping: 0.097848 ms MarkObjects: 5.421429 ms  DeleteObjects: 0.163359 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3489 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.7 MB.
+System memory in use after: 236.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 4390.
+Total: 6.267975 ms (FindLiveObjects: 0.512845 ms CreateObjectMapping: 0.143315 ms MarkObjects: 5.381550 ms  DeleteObjects: 0.221047 ms)
+

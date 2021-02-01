@@ -1,0 +1,6 @@
+ 
+Silhouette Shader - https://github.com/ewersp/Shaders/blob/master/Silhouette.shader
+Promethena Dissolve - https://github.com/vivekhnz/UnityEffects
+Effects - https://github.com/keijiro/ShaderGraphExamples
+UltEvents 
+Toon Shaders - https://github.com/Kink3d/kShading
