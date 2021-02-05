@@ -9,6 +9,7 @@ public class LevelRandomizer : MonoBehaviour
     public Transform itemParent;
     public List<KeyItem> keyItems;
     public List<KeyItem> totems;
+    public List<Color> colors;
     // public List<BasicItem> spawnableItems;
     public List<Room> rooms;
     public Transform[] TierOneSpawns;
@@ -29,27 +30,12 @@ public class LevelRandomizer : MonoBehaviour
     public void Randomize()
     {
         InGameHUD.instance?.LoadingPanel.SetActive(true);
-        /*
-        spawnedItems = new List<BasicItem>();
-        for (int i = 0; i < 3; i++)
-        {
-            // Rooms = Rooms.OrderBy()
-        }
-        Rooms.ForEach(room =>
-        {
-            KeyItems.ForEach(ki =>
-            {
-                BasicItem item = Instantiate(ki, room.KeyItemPlacement);
-                spawnedItems.Add(item);
-            });
-
-        });
-        */
 
         // Start Randomization
         List<Room> tempRooms = new List<Room>(rooms);
         List<KeyItem> tempKeys = new List<KeyItem>(keyItems);
         List<Transform> tempTierOneSpawn = new List<Transform>(TierOneSpawns);
+        // colors
 
         // Spawn Room
         Room spawnRoom = tempRooms[Random.Range(0, tempRooms.Count)];
@@ -74,8 +60,7 @@ public class LevelRandomizer : MonoBehaviour
 
         var item = keyItems[Random.Range(0, keyItems.Count)];
         keyItems.Remove(item);
-        goalRoom.door.SetKeyItem(item.Kind);
-        goalRoom.door.SetKeyIcon(item.Icon);
+        goalRoom.door.SetKeyItem(item.Kind, item.Icon, Color.white);
 
         Instantiate(item.transform, firstRoom.PlayerPos.position + (Vector3.up * 1f), Quaternion.identity, transform);
 
@@ -91,8 +76,7 @@ public class LevelRandomizer : MonoBehaviour
         var thirdRoom = tempRooms[Random.Range(0, tempRooms.Count)];
         tempRooms.Remove(thirdRoom);
 
-        thirdRoom.door.SetKeyItem(item.Kind);
-        thirdRoom.door.SetKeyIcon(item.Icon);
+        thirdRoom.door.SetKeyItem(item.Kind, item.Icon, Color.white);
 
         // Random items for the first non-goal room
         var spawnPoint = tempTierOneSpawn[Random.Range(0, tempTierOneSpawn.Count)];
@@ -102,8 +86,7 @@ public class LevelRandomizer : MonoBehaviour
         keyItems.Remove(item);
 
         Instantiate(item.transform, spawnPoint.position + (Vector3.up * 1f), Quaternion.identity, transform);
-        firstRoom.door.SetKeyItem(item.Kind);
-        firstRoom.door.SetKeyIcon(item.Icon);
+        firstRoom.door.SetKeyItem(item.Kind, item.Icon, Color.white);
 
         var curRoom = secondRoom;
 
@@ -116,8 +99,7 @@ public class LevelRandomizer : MonoBehaviour
             item = keyItems[Random.Range(0, keyItems.Count)];
             keyItems.Remove(item);
 
-            curRoom.door.SetKeyItem(item.Kind);
-            curRoom.door.SetKeyIcon(item.Icon);
+            curRoom.door.SetKeyItem(item.Kind, item.Icon, Color.white);
 
             Instantiate(item.transform, spawnPoint.position + (Vector3.up * 1f), Quaternion.identity, transform);
 

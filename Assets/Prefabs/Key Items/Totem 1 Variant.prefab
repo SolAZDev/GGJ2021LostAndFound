@@ -88,7 +88,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 0}
-  Kind: 6
+  Kind: 7
   particleSystem: {fileID: 0}
   lightColor: {r: 1, g: 1, b: 1, a: 0}
   light: {fileID: 2125367521}

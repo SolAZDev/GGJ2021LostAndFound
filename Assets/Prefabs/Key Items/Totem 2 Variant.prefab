@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 0}
-  Kind: 7
+  Kind: 8
   particleSystem: {fileID: 0}
   lightColor: {r: 1, g: 1, b: 1, a: 0}
   light: {fileID: 94357609}
