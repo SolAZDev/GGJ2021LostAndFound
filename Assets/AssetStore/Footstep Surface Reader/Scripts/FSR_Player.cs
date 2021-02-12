@@ -92,7 +92,7 @@ namespace FSR
         // excluding sound at index 0
         private void playSound(FSR_Data.SurfaceType surfaceType)
         {
-            print(surfaceType.name);
+            // print(surfaceType.name);
             AudioClip[] soundEffects = surfaceType.soundEffects;
 
             int n = Random.Range(1, soundEffects.Length);

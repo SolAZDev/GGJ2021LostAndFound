@@ -6,8 +6,7 @@ public class KeyItem : BasicItem
 {
     public Color lightColor;
     public Light light;
-    public Sprite symbol;
-    public SpriteRenderer Front, Back;
+    public SpriteRenderer renderer;
 
-    
+
 }

@@ -29,4 +29,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(name, LoadSceneMode.Additive);
     }
+
+    public void SlowPlayerDown(bool slow = false)
+    {
+        Player.instance.Speed = slow ? 1 : 2.5f;
+    }
 }

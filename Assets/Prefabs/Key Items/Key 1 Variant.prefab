@@ -187,9 +187,7 @@ MonoBehaviour:
   particleSystem: {fileID: 5625940478116410228, guid: 142f08ad6c373d544bb1fcd993d589b6, type: 3}
   lightColor: {r: 1, g: 1, b: 1, a: 0}
   light: {fileID: 1264372923}
-  symbol: {fileID: 0}
-  Front: {fileID: 0}
-  Back: {fileID: 0}
+  renderer: {fileID: 1695769433868834482}
 --- !u!1 &8211778020837991608
 GameObject:
   m_ObjectHideFlags: 0

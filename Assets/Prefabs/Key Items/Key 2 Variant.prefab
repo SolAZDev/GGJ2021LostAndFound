@@ -269,9 +269,7 @@ MonoBehaviour:
   particleSystem: {fileID: 5625940478116410228, guid: 142f08ad6c373d544bb1fcd993d589b6, type: 3}
   lightColor: {r: 1, g: 1, b: 1, a: 0}
   light: {fileID: 1442353513}
-  symbol: {fileID: 0}
-  Front: {fileID: 0}
-  Back: {fileID: 0}
+  renderer: {fileID: 4154971086070378290}
 --- !u!1001 &3725414795682611841
 PrefabInstance:
   m_ObjectHideFlags: 0

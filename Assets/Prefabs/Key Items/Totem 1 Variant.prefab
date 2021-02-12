@@ -92,9 +92,7 @@ MonoBehaviour:
   particleSystem: {fileID: 0}
   lightColor: {r: 1, g: 1, b: 1, a: 0}
   light: {fileID: 2125367521}
-  symbol: {fileID: 0}
-  Front: {fileID: 0}
-  Back: {fileID: 0}
+  renderer: {fileID: 4985922931597931376}
 --- !u!1 &8144033422662490155
 GameObject:
   m_ObjectHideFlags: 0

@@ -305,6 +305,7 @@ MonoBehaviour:
   item: 0
   puzzleSwitch: {fileID: 261189566}
   keyIcon: {fileID: 7563313765804391289}
+  glow: {fileID: 3884763418870675572}
 --- !u!1 &2705942509174508018
 GameObject:
   m_ObjectHideFlags: 0

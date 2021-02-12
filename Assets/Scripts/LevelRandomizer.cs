@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,7 @@ public class LevelRandomizer : MonoBehaviour
     {
         if (generateAtStart)
         {
-            Randomize();
+            Randomizr();
         }
     }
 
@@ -38,7 +39,7 @@ public class LevelRandomizer : MonoBehaviour
         // colors
 
         // Spawn Room
-        Room spawnRoom = tempRooms[Random.Range(0, tempRooms.Count)];
+        Room spawnRoom = tempRooms[UnityEngine.Random.Range(0, tempRooms.Count)];
         tempRooms.Remove(spawnRoom);
 
         player.transform.position = spawnRoom.PlayerPos.position;
@@ -47,7 +48,7 @@ public class LevelRandomizer : MonoBehaviour
         spawnRoom.door.gameObject.SetActive(false);
 
         // Goal Room
-        Room goalRoom = tempRooms[Random.Range(0, tempRooms.Count)];
+        Room goalRoom = tempRooms[UnityEngine.Random.Range(0, tempRooms.Count)];
         tempRooms.Remove(goalRoom);
 
         goalRoom.door.SetMinimapIconColor(Color.red);
@@ -55,34 +56,42 @@ public class LevelRandomizer : MonoBehaviour
         Instantiate(GoalTreasureItem, goalRoom.PlayerPos.position, Quaternion.identity, transform);
 
         // Room that contains the item for the goal room
-        Room firstRoom = tempRooms[Random.Range(0, tempRooms.Count)];
+        Room firstRoom = tempRooms[UnityEngine.Random.Range(0, tempRooms.Count)];
         tempRooms.Remove(firstRoom);
 
-        var item = keyItems[Random.Range(0, keyItems.Count)];
+        var item = keyItems[UnityEngine.Random.Range(0, keyItems.Count)];
         keyItems.Remove(item);
         goalRoom.door.SetKeyItem(item.Kind, item.Icon, Color.white);
 
-        Instantiate(item.transform, firstRoom.PlayerPos.position + (Vector3.up * 1f), Quaternion.identity, transform);
+        Instantiate(item.transform, firstRoom.PlayerPos.position + (Vector3.up * 1f), Quaternion.identity, transform).GetComponent<KeyItem>();
+        // item.light
 
+
+
+
+        //
         // Second room that contains item
-        var secondRoom = tempRooms[Random.Range(0, tempRooms.Count)];
+        var secondRoom = tempRooms[UnityEngine.Random.Range(0, tempRooms.Count)];
         tempRooms.Remove(secondRoom);
 
-        item = keyItems[Random.Range(0, keyItems.Count)];
+        item = keyItems[UnityEngine.Random.Range(0, keyItems.Count)];
         keyItems.Remove(item);
 
         Instantiate(item.transform, secondRoom.PlayerPos.position + (Vector3.up * 1f), Quaternion.identity, transform);
 
-        var thirdRoom = tempRooms[Random.Range(0, tempRooms.Count)];
+        var thirdRoom = tempRooms[UnityEngine.Random.Range(0, tempRooms.Count)];
         tempRooms.Remove(thirdRoom);
 
         thirdRoom.door.SetKeyItem(item.Kind, item.Icon, Color.white);
 
+
+
+
         // Random items for the first non-goal room
-        var spawnPoint = tempTierOneSpawn[Random.Range(0, tempTierOneSpawn.Count)];
+        var spawnPoint = tempTierOneSpawn[UnityEngine.Random.Range(0, tempTierOneSpawn.Count)];
         tempTierOneSpawn.Remove(spawnPoint);
 
-        item = keyItems[Random.Range(0, keyItems.Count)];
+        item = keyItems[UnityEngine.Random.Range(0, keyItems.Count)];
         keyItems.Remove(item);
 
         Instantiate(item.transform, spawnPoint.position + (Vector3.up * 1f), Quaternion.identity, transform);
@@ -93,10 +102,10 @@ public class LevelRandomizer : MonoBehaviour
         // Other random items
         for (int i = 0; i < 3; i++)
         {
-            spawnPoint = tempTierOneSpawn[Random.Range(0, tempTierOneSpawn.Count)];
+            spawnPoint = tempTierOneSpawn[UnityEngine.Random.Range(0, tempTierOneSpawn.Count)];
             tempTierOneSpawn.Remove(spawnPoint);
 
-            item = keyItems[Random.Range(0, keyItems.Count)];
+            item = keyItems[UnityEngine.Random.Range(0, keyItems.Count)];
             keyItems.Remove(item);
 
             curRoom.door.SetKeyItem(item.Kind, item.Icon, Color.white);
@@ -105,11 +114,61 @@ public class LevelRandomizer : MonoBehaviour
 
             if (tempRooms.Count > 0)
             {
-                curRoom = tempRooms[Random.Range(0, tempRooms.Count)];
+                curRoom = tempRooms[UnityEngine.Random.Range(0, tempRooms.Count)];
                 tempRooms.Remove(curRoom);
             }
         }
         InGameHUD.instance?.LoadingPanel.SetActive(false);
     }
 
+    public void Randomizr()
+    {
+        InGameHUD.instance?.LoadingPanel.SetActive(true);
+
+        //Randomize to all heck
+        List<Room> tempRooms = new List<Room>(rooms).OrderBy(i => Guid.NewGuid().ToString()).ToList();
+        List<KeyItem> tempKeys = new List<KeyItem>(keyItems).OrderBy(i => Guid.NewGuid().ToString()).ToList();
+        List<Transform> tempTierOneSpawn = new List<Transform>(TierOneSpawns).OrderBy(i => Guid.NewGuid().ToString()).ToList();
+        List<Color> tempColors = new List<Color>(colors).OrderBy(i => Guid.NewGuid().ToString()).ToList();
+        Room currRoom = null;
+        for (int r = 0; r < tempRooms.Count; r++)
+        {
+            var room = tempRooms[r];
+            print("Room " + r + " at " + room.transform.position);
+            if (r == 0)
+            {
+                player.transform.position = room.PlayerPos.position;
+                player.transform.rotation = room.PlayerPos.rotation;
+                room.door?.gameObject.SetActive(false);
+            }
+            else
+            {
+                for (int k = 1; k < tempKeys.Count + 1; k++)
+                {
+                    // print("Key/Color " + k);
+                    int index = r > 3 ? r-- : r;
+                    var key = tempKeys[k--];
+                    // var color = tempColors[k];
+                    var color = Color.white;
+                    var ikey = Instantiate(key, Vector3.zero, Quaternion.identity, transform).GetComponent<KeyItem>();
+                    if (r > 0 || r < 4)
+                    {
+                        if (r == 1) room.door.SetMinimapIconColor(Color.red); // This be the room
+                        ikey.transform.position = room.PlayerPos.position + (Vector3.up * 1f);
+                        if (r == 2) { currRoom = room; }
+                    }
+                    else
+                    {
+                        currRoom = room;
+                        // ikey.transform.position = tempRooms[r--].PlayerPos.position + (Vector3.up * 1f);
+                    }
+                    ikey.renderer.color = color;
+                    // tempRooms[index].door.SetKeyItem(tempKeys[k--].Kind, tempKeys[k--].Icon, color);
+                    // tempRooms[index].door.glow.color = color;
+                    // tempRooms[index].door.keyIcon.color = color;
+                }
+            }
+        }
+        InGameHUD.instance?.LoadingPanel.SetActive(false);
+    }
 }
